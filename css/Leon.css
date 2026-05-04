@@ -268,11 +268,18 @@ body {
   display: flex;
   margin-bottom: 40px;
 }
-
+/* 
 @media (max-width: 767px) {
   .services .services-content .srv {
     flex-direction: column;
     text-align: center;
+  }
+} */
+@media (max-width: 767px) {
+  .services .services-content .srv {
+    flex-direction: column;
+    text-align: center;
+    align-items: center; /* This forces all children (icon + text) to the center */
   }
 }
 
